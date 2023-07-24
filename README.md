@@ -1,7 +1,13 @@
 Create `.env` file in top directory
 
-### Sample
 ```
 DISCORD_TOKEN=""
 BATTLEMETRICS_TOKEN=""
+```
+
+Run with
+
+```
+docker build -t discord-bot .
+docker run discord-bot -d
 ```
