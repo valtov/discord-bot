@@ -9,5 +9,5 @@ Run with
 
 ```
 docker build -t discord-bot .
-docker run discord-bot -d
+docker run -d discord-bot
 ```
